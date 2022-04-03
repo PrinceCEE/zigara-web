@@ -40,3 +40,5 @@ Your app is ready to be deployed!
 - `git checkout branchname` to checkout into another branch. Remember to stash or commit work before this.
 - `git checkout commit-hash` to checkout to a particular commit.
 - `git reset commit-hash --soft`, `git reset commit-hash --hard` for resetting to previous commits.
+- `git branch branchname` to create a new branch
+- `git checkout -b branchname` to create a branch and checkout
