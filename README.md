@@ -33,9 +33,10 @@ Your app is ready to be deployed!
 
 - `git add path`(example git add filename, git add . etc, to add files to staging for commits)
 - `git commit -m "commit message"`, for commit to git. Remember to use short, good and descriptive messages
+- `git commit --allow-empty-message -m ""`, for allowing empty messages
 - `git stash` (To stash out the recent uncommited work)
 - `git stash pop` to remove the last stashed work from the stack and bring it back to the codebase, maybe in another branch
 - `git log` and `git log --oneline` for logging commit history
 - `git checkout branchname` to checkout into another branch. Remember to stash or commit work before this.
-- `git checkout commit-hash` to checkout to a particular commit
-- `git reset commit-hash --soft`, `git reset commit-hash --hard` for resetting to previous commits
+- `git checkout commit-hash` to checkout to a particular commit.
+- `git reset commit-hash --soft`, `git reset commit-hash --hard` for resetting to previous commits.
